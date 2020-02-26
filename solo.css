@@ -1,0 +1,12 @@
+.title{
+    background: black; 
+    color: skyblue; 
+    font-weight: normal;
+
+}
+.sub-title{
+    margin-left:40px;
+}
+#touch{
+    background-color: red;
+}

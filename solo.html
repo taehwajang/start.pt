@@ -1,26 +1,20 @@
 <html>
     <head>
         <title>나의 연습</title>
+        <link rel="stylesheet" href="./solo.css">
     </head>
-    <body id="touch" onclick="touch()">
-        <h2 style="background: red; color: yellow; center">안녕하세요 장태화입니다</h2>
-        <h2 style="margin-left:40px">html을 공부하면서 연습중입니다.</h2>
-        <h3 style="background-color: red;" id="touch" onclick="touch()">배경 레드 클릭하면 블루</h3>
+    <body>
+        <h2 class="title">안녕하세요 장태화입니다</h2>
+        <h2 class="sub-title">html을 공부하면서 연습중입니다.</h2>
+        <h3 id="touch" onclick="touch()">배경 레드 클릭하면 블루</h3>
         <p style="background-size: 50px;">바로가기</p>
         <div>
             <div style="color: white ; background-color: yellowgreen; margin-bottom: 30px; font-size: 50px; width: 130; height: 70px;"><a href="http://naver.com" target="blank">naver</a></div>
             <div style="background-color: black; color: white; margin-bottom: 30px; font-size: 50px; width: 190; height: 70px;"><a href="https://www.musinsa.com/" target="blank">musinsa</a></div>
             <div style="background-color: pink; color: white; margin-bottom: 30px; font-size: 50px; width: 210; height: 70px; "><a href="https://wusinsa.musinsa.com/" target="blank">woosinsa</a></div>
         </div>
-        <script>
-            var target = document.getElementById('touch')
-            function touch(){
-                if(target.style.backgroundColor == 'red'){
-                    target.style.backgroundColor = 'blue'
-                }else{
-                    target.style.backgroundColor = 'red'
-                }
-            }
-        </script>
+        <script src="./solo.js"></script>
     </body>
 </html>
+
+
