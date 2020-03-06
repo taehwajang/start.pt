@@ -1,0 +1,87 @@
+<html>
+<head><title>20.03.05</title></head>
+<style>
+    table,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th,td{
+        padding:12px;
+    }
+    th{
+        text-align: left;
+    }
+    table#t01{width: 100%;
+    background-color: black;
+    color:white;}
+    table#t01 th{
+        background-color: yellow;
+        color: black;
+    }
+    table#t01 tr:nth-child(odd){
+        background-color: skyblue;
+    }
+    table#t01 tr:nth-child(even){
+        background-color: blue;
+
+    }
+</style>
+<body>
+    <h2>my friends list</h2>
+   <table style="width:100%">
+    <h1><caption>imformation</caption></h1>
+    <tr>
+        <th colspan="2">full name</th>
+    </tr>
+    <tr>
+        <th>frist name</th>
+        <th>last name</th>
+        <th>age</th>
+    </tr>
+    <tr>
+        <td>gu</td>
+        <td>jabum</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>lee</td>
+        <td>inho</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>song</td>
+        <td>wongeun</td>
+        <td>25</td>
+    </tr>
+    </table>
+    <table style="width:100%" id="t01">
+        <caption>imformation</caption>
+         <tr>
+          <th colspan="2">full name</th>
+          <th rowspan="2">age</th>
+         </tr>
+         <tr>
+             <th>frist name</th>
+             <th>last name</th>
+             
+         </tr>
+         <tr>
+             <td>gu</td>
+             <td>jabum</td>
+             <td>25</td>
+         </tr>
+         <tr>
+             <td>lee</td>
+             <td>inho</td>
+             <td>25</td>
+         </tr>
+         <tr>
+             <td>song</td>
+             <td>wongeun</td>
+             <td>25</td>
+         </tr>
+         </table>
+     
+</body>
+
+</html>
