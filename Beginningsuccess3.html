@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <style>
+            .header{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 1px solid black;
+                padding: 30px;
+            }
+            .menu{
+                background-color: black;
+                justify-content: space-around;
+                display: flex;
+                align-items: center;
+                height: 40px;
+            }
+            .menu a {
+                color: white;
+                
+            }
+            .menu :hover {
+                font-size: larger;
+            }
+            .login{
+                margin-right: 10px;
+                border: 1px solid black;
+            }
+            .left {
+                border: 1px solid black;
+                margin-top: 10px;
+            }
+            .nav{
+                width: 100%;
+                border: 1px solid black;
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h2>데이트 길잡이</h2>
+            <h4>데이트 쉽게 짜기</h4>
+            <div>
+                <input type="text">
+                <button>검색</button>
+            </div>
+        </div>
+        <div class="menu">
+            <a href="#">힐링</a>
+            <a href="#">관광</a>
+            <a href="#">여행</a>
+            <a href="#">맛집</a>
+            <a href="#">운동</a>
+        </div>
+        <div class="nav">
+            <div class="left">
+                <h3>지도</h3>
+                <img src="./jangtaehwa.jpg" alt="map">
+            </div>
+            <div class="login">
+                <label for="ID">아이디: </label>
+                <input type="text">
+                <label for="PASSWORD">비밀번호:</label>
+                <input type="text">
+                <button>확인</button>
+                <button>회원가입</button> <br>
+                <a href="#">아이디/비밀번호 찾기</a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>2</title>
+        <style>
+            .header{
+                border: 1px solid;
+                padding: 20px; 
+                width: 100%;
+                overflow: auto;
+            }
+            *{
+                box-sizing: border-box;
+            }
+            .menu{
+                float: left;
+                width: 20%;
+                text-align: center;
+            }
+            .menu a{
+                background-color: skyblue;
+                padding: 8px;
+                margin-top: 7px;
+                display: block;
+                width: 100%;
+                color: black;
+                border: 1px solid;
+            }
+            .main{
+                float: left;
+                width: 60%;
+                padding: 0 20px;
+                border: 1px solid;
+            }
+            .login{
+                background-color: skyblue;
+                margin-top: 7px;
+                text-align: center;
+                border: 1px solid;
+                padding: 20px; 
+                width: 20%;
+                overflow: auto;
+            }
+            @media only screen and (max-width:620px){
+                .menu, .main, .right{
+                    width: 100%;
+                }
+            }
+            .bottom{
+                background-color: skyblue;
+                padding: 10px;
+                margin-top: 7px;
+                border: 1px solid;
+            }
+            .username_wrap, .password_wrap {
+               display: flex;
+               align-items: center;
+            }
+            .username_wrap h4, .password_wrap h4{
+                width: 70px;
+            }
+            .username_wrap input, .password_wrap input{
+                height: 30px;
+                margin-left: 5px;
+            }
+        </style>
+    </head>
+    <body style="font-family: verdana; color:black;">
+        
+        <div style="background-color:skyblue;padding:15px; text-align:center;" class="header">
+            <h1>데이트 길잡이</h1>
+            <h4>데이트를 쉽게 짜기</h4>
+        </div>
+
+        <div style="overflow: auto;">
+            <div class="menu">
+                <a href="#">힐링</a>
+                <a href="#">운동</a>
+                <a href="#">관광/명소</a>
+                <a href="#">여행</a>
+                <a href="#">맛집</a>
+            </div>
+
+            <div class="main">
+                <h2>지도</h2>
+                <img src="./jangtaehwa.jpg" alt="map">
+            </div>
+
+            <div class="login">
+                <div class="username_wrap">
+                    <h4>아이디 : </h4>
+                    <input type="text" id="username">
+                </div>
+                <div class="password_wrap">
+                    <h4>비밀번호 : </h4>
+                    <input type="text" id="password">
+                </div>
+                <div>
+                    <button>확인</button>
+                    <button>회원가입</button>
+                </div>
+            </div>            
+        </div>
+        <div class="bottom">대표: 장태화 
+        <br>이메일:jang199651@gmail.com <br>핸드폰번호: 010-3540-8380</div>
+
+
+    </body>
+</html>

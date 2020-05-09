@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>20.03.16 form</title>
+        <link rel="stylesheet" href="./-afterhtml.css">
+    </head>
+    <body>
+        <h2>HTML Forms</h2>
+        <form>
+    <fieldset>
+        <legend>Imformation</legend>
+        <label for="fname">Email</label><br>
+        <input type="text" id="fname" name="fname" value="jang199651@gmail.com"><br>
+        <label for="lname">password</label><br>
+        <input type="password" id="lname" name="lname" value="taehwa">
+        <input type="submit" value="submit"><br><br>
+        <label for="age">my age:</label>
+        <input list="age" name="age">
+        <datalist id="age" name="age">
+         <option value="23">
+         <option value="24">
+         <option value="25">
+         <option value="26">
+        </datalist><br>
+        <textarea name="message" cols="20" rows="1">Hint:I was born in 1996.05.01 </textarea>
+        <button type="button" onclick="alert('25!')">answer</button>
+    </fieldset>
+    </form>
+    </body>
+</html>

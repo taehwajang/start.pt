@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position:absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .desc {
+                padding: 15px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>dropdown image</h2>
+        <p>Move the mouse over the image below to open the dropdown content.</p>
+        <div class="dropdown">
+            <img src="./jangtaehwa.jpg" alt="jangtaehwa" width="100" height="80">
+            <div class="dropdown-content">
+                <img src="./jangtaehwa.jpg" alt="jangtaehwa" width="300" height="280">
+                <div class="desc">
+                    jangtaehwa'face
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                font-family: arial;
+                padding: 10px;
+                background: darkgrey;
+            }
+            .header {
+                padding: 30px;
+                text-align: center;
+                background: white;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color:black;
+                color: white;
+            }
+            .topnav a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+            }
+            .topnav:hover {
+                background-color: darkgrey;
+                color: black;
+            }
+            .leftcolumn {
+                float: left;
+                width: 75%;
+            }
+            .rightcolumn {
+                float: right;
+                width: 25%;
+                background-color: darkgrey;
+                padding: 10px;
+                
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .card {
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h2 style="font-size: 50px;">MY PAGE</h2>
+            <p><b> Nice,of you to drop by.</b></p>
+        </div>
+        <div class="topnav">
+            <a href="#">mail</a>
+            <a href="#">cafe</a>
+            <a href="#">blog</a>
+        </div>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>This is my face</h2>
+                    <h5>ID picture</h5>
+                    <img src="./jangtaehwa.jpg" alt="jangtaehwa">
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>supporting account</h2>
+                    <h5>국민은행 224602-04-225911</h5>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

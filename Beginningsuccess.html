@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                font-family: arial;
+                padding: 10px;
+                background: darkgrey;
+            }
+            .header {
+                padding: 30px;
+                text-align: center;
+                background: white;
+            }
+            .mainbanner {
+                overflow: hidden;
+                background-color:black;
+                color: white;
+            }
+            .mainbanner a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+            }
+            .mainbanner:hover{
+                background-color: darkgrey;
+                color: black;
+            }
+            .hilling:hover{
+                background-color: green;
+            }
+            .excercise:hover{
+                background-color: black;
+            }
+            .tour:hover{
+                background-color: skyblue;
+            }
+            .travel:hover{
+                background-color: yellowgreen;
+            }
+            .eatting:hover{
+                background-color: tomato;
+            }
+            .leftcbanner {
+                float: left;
+                width: 75%;
+            }
+            .rightbanner {
+                float: right;
+                width: 25%;
+                background-color: darkgrey;
+                padding: 10px;
+                
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .provide {
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+            }
+            .main_center{
+                background-color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .main_center h2{
+                width: auto;
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h2 style="font-size: 50px;">데이트 길잡이</h2>
+            <p><b> 데이트 쉽게 짜기</b></p>
+            <form>
+                <input type="text">
+                <button>검색</button>
+            </form>
+        </div>
+        <div class="mainbanner">
+            <a href="naver.com" class="hilling">힐링</a>
+            <a href="naver.com" class="excercise">운동</a>
+            <a href="naver.com" class="tour">관광/명소</a>
+            <a href="naver.com" class="travel">여행</a>
+            <a href="naver.com" class="eatting">맛집</a>
+        </div>
+        <div class="row">
+            <div class="leftbanner">
+                <div class="main_center">
+                    <div class="left_wrap">
+                        <h2>지도</h2>
+                        <h5><img src="./jangtaehwa.jpg" alt="mapimg"></h5>
+                    </div>
+                    <div class="right_wrap">
+                        <div>
+                            <label for="username">아이디 : </label>
+                            <input type="text" id="username"><br>
+                            <label for="password">비밀번호 : </label>
+                            <input type="text" id="password">
+                        </div>
+                        <div>
+                            <button>확인</button>
+                            <button>회원가입</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightbanner">
+                <div class="provide">
+                    <h2>제휴 및 광고 문의</h2>
+                    <h4>010-3540-8380 장태화</h4>
+                    <h4>후원계좌</h4>
+                    <h5>국민은행 224602-04-225911</h5>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

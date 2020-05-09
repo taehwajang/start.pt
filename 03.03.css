@@ -1,0 +1,30 @@
+    body{
+        background-image: url(./jangtaehwa.jpg);
+        background-repeat: no-repeat;
+        background-position: right top;
+        
+    }
+    table,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th,td{
+        padding:12px;
+    }
+    th{
+        text-align: left;
+    }
+    table#t01{width: 100%;
+    background-color: black;
+    color:white;}
+    table#t01 th{
+        background-color: yellow;
+        color: black;
+    }
+    table#t01 tr:nth-child(odd){
+        background-color: skyblue;
+    }
+    table#t01 tr:nth-child(even){
+        background-color: blue;
+
+    }
