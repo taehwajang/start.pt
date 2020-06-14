@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            var links = {
+                SetColor:function(color){
+                    var a = document.querySelectorALL('a');
+                    var i = 0 ;
+                    while(i < a.length){
+                        a[i].style.color = 'color';
+                    }
+                }
+            }
+            var Body = {
+                setColor:function (color){
+                    document.querySelector('body').style.color = color;
+                },
+                setBackgroundColor:function(color){
+                    document.querySelector('body').style.backgroundColor= color;
+                }
+            }
+           
+            function nightDayHandler(self){
+                var target = document.querySelector('body');
+                if(self.value === 'night'){
+                    Body.setBackgroundColor('black');
+                    Body.setColor('white');
+                    self.value = 'day';
+
+                    link.setColor('powderblue');
+                }else {
+                    Body.setBackgroundColor('white');
+                    Body.setColor('black');
+                    self.value ='night';
+
+                    links.setcolor('blue');
+                }
+            }
+        
+        </script>
+    </head>
+
+    <body>
+        <a>web</a>
+        <a>html</a>
+        <a>css</a>
+        <a>javascript</a>
+         <input id="night_day" type="button" value="night" onclick="
+            nightDayHandler(this);
+         ">
+        
+
+       
+        </ul>
+    </body>
+</html>
